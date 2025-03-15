@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+/* PROJECT  NUMBER ONE */
+/* Quote generator styling */ 
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("slider1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.quote-section{
+    width: 500px;
+    height: 400px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 0 10px;
+}
+
+h2{
+    width: 90%;
+    text-align: center;
+    margin: 20px auto;
+    background-color: cadetblue;
+    padding: 8px 0;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+#text-area{
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 30px auto;
+}
+
+#person{
+    text-align: center;
+    font-size: 1.3rem;
+    letter-spacing: 2;
+}
+span{
+    text-transform: uppercase;
+    color: brown;
+}
+
+button{
+    padding: 12px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-top: 20px;
+    background-color: cadetblue;
+    border-radius: 10px;
+    box-shadow: 0 0 5px;
+    cursor: pointer;
+}
+

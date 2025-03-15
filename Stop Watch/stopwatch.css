@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url("slider3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+.container{
+    width: 60%;
+    height: 30%;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.watch{
+    font-size: 4rem;
+    text-align: center;
+    margin: 0.3em 0;
+}
+
+button{
+    padding: 10px;
+    margin-top: 0.2rem;
+    font-weight: 700;
+    box-shadow: 0 0 2px;
+    cursor: pointer;
+    /* border: 0; */
+}
+
+.stopPalyBtn{
+    background-color: green;
+}
+
+.pause{
+    background-color: orangered;
+}
+
+.restartBtn{
+    background-color: red;
+}

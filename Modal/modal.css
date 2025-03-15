@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* PROJECT  NUMBER TWO */
+/* Modal styling */ 
+
+.modal-full{
+    width: 100%;
+    height: 100vh;
+    background-image: url("slider2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.appearance-btn{
+    position: absolute;
+    top: 60%;
+    left: 10%;
+}
+.btn-app{
+    padding: 20px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    border-radius: 7px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+.btn-app:hover{
+    cursor: pointer;
+    color: black;
+    background-color: white;
+}
+
+.modal{
+    display: none;
+    width: 230px;
+    height: 60px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 6px;
+    box-shadow: 0 0 20px;
+    font-size: 2rem;
+    padding: 10px 8px;
+    background-color: white;
+    color: black;
+    animation-name: modalAnimation;
+    animation-duration: .5s;
+}
+
+.cancel-icon{
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-left: 8%;
+    color: red;
+    cursor: pointer;
+}
+
+@keyframes modalAnimation {
+    from{
+        top: -300px;
+        opacity: 0;
+    }
+    to{
+        top: 50%;
+        opacity: 1;
+    }
+}
