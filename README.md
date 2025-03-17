@@ -1,1 +1,1 @@
-# THE-MIGHTY-FIVE---mini-projects
+# THE-MIGHTY-FIVE | mini-projects
