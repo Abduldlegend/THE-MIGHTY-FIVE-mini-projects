@@ -11,7 +11,7 @@ Welcome to my **Mini Projects Repository**! 🚀 This repository contains five s
 - Users can toggle answers to frequently asked questions.
 - Uses HTML, CSS, and JavaScript for interactivity.
 
-### 2️⃣ Timer
+### 2️⃣ Stop Watch
 - A basic countdown timer.
 - Allows users to set a time and start/stop/reset the timer.
 - Great for tracking short tasks or study sessions.
@@ -34,12 +34,12 @@ Welcome to my **Mini Projects Repository**! 🚀 This repository contains five s
 ## 📂 Project Structure
 ```
 Mini-Projects/
-├── FAQ-Card/
-├── Timer/
-├── Quote-Generator/
-├── Modal-Popup/
-├── To-Do-App/
-├── README.md
+    FAQ-Card/
+    Modal-Popup/
+    Quote-Generator/
+    Stop Watch/
+    To-Do-App/
+    README.md
 ```
 
 ## 🚀 Getting Started
