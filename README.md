@@ -3,7 +3,7 @@
 # Mini Projects Repository
 
 Welcome to my **Mini Projects Repository**! 🚀 This repository contains five small but useful projects, each demonstrating different functionalities using HTML, CSS, and JavaScript.
-
+gfg
 ## 📌 Projects Included
 
 ### 1️⃣ FAQ Card
