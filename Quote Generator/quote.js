@@ -7,39 +7,45 @@ let newQuote = document.querySelector("button");
 
 const quotes = [
 {
-    quote:`"BASIC TECHNOLOGIES OF THE WEB EXPLAINED (INCLUDING USE CASES)"`, person:"Philip Stanhop"
+    quote:`"What's worth doing, worth doing well."`, person:"Philip Stanhop"
 
 },
 {
-    quote:`"INTRODUCTION TO HYPERTEXT MARK-UP LANGUAGE (HTML)"`, person:"George Banerd Shaw"
+    quote:`"Doing what needs to be done may not make you happy, but it will make you great."`, person:"George Banerd Shaw"
 
 },
 {
-    quote:`"CASCADING STYLE SHEET (CSS)"`, person:"Steve Hawkins"
+    quote:`"Stay hungry, stay foolish."`, person:"Steve Jobs"
 },
 {
-    quote:`"BASIC TECHNOLOGIES OF THE WEB EXPLAINED"`, person:"Albert Einstein"
+    quote:`"Success is not final, failure is not fatal: it is the courage to continue that counts."`, person:" Winston Churchill"
 },
 {
-    quote:`"INTRODUCTION TO HYPERTEXT MARK-UP LANGUAGE"`, person:"Micheal Faraday"
+    quote:`"You miss 100% of the shots you don’t take."`, person:"Wayne Gretzky"
 },
 {
-    quote:`"coming"`, person:"Mahat Magandi"
+    quote:`"The computer was born to solve problems that did not exist before."`, person:"Bill Gates"
 },
 {
-    quote:`"empty"`, person:"Fela Kuti"
+    quote:`"Everything should be made as simple as possible, but not simpler."`, person:"Albert Einstein"
 },
 {
-    quote:`"later"`, person:"Ada Lovelace"
+    quote:`"Any fool can write code that a computer can understand. Good programmers write code that humans can understand."`, person:"Martin Fowler"
 },
 {
-    quote:`"for all of us"`, person:"Alan Turin"
+    quote:`"Software is like entropy: It is difficult to grasp, weighs nothing, and obeys the Second Law of Thermodynamics; i.e., it always increases."`, person:" Norman Augustine"
 },
 {
-    quote:`"me too"` , person:"Charles Barbage"
+    quote:`"Simplicity is the ultimate sophistication"` , person:"Leonardo da Vinci"
 },
 {
-    quote:`"byeee"`, person:"Abdulkadir Musa"
+    quote:`"Your time is limited, so don’t waste it living someone else’s life."` , person:"Steve Jobs"
+},
+{
+    quote:`"First, solve the problem. Then, write the code."` , person:"John Johnson"
+},
+{
+    quote:`"Programs must be written for people to read, and only incidentally for machines to execute."`, person:"Harold Abelson"
 }];
 
 newQuote.addEventListener("click", () => {
